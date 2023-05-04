@@ -51,7 +51,7 @@ scenes.push(scene3);
 //Brain model
 let brain;
 const loader = new GLTFLoader();
-loader.load("3dBrain1.glb", (gltf) => {
+loader.load("3dBrain.glb", (gltf) => {
   brain = gltf.scene;
   addOutlineObject(brain);
 
